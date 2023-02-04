@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(241, 238, 194);
+}
+h2{
+    color: rgb(247, 124, 124);
+}
+
+header { 
+    display: flex;
+    background-color: aquamarine;
+    justify-content:space-between;
+    padding: 1rem 5rem;
+
+}
+nav{
+    display: flex;
+    justify-content: right;
+   
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#YY{
+    margin-left: 50px;
+    list-style-type: none;
+
+}
+
+li>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 15px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+   
+    
+ }
+footer{
+    align-self: flex-end;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue(223, 197, 197);
+    color: rgb(31, 29, 29);
+    text-align: center;
+    border-radius: 0%;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+}
